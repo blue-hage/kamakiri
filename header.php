@@ -20,7 +20,7 @@
       <div class="container text-center">
         <ul class="d-flex justify-content-around align-items-center header">
           <li><a href="<?php echo get_template_directory_uri(); ?>/index">TOP</a></li>
-          <li><a href="<?php echo get_template_directory_uri(); ?>/blog">ブログ</a></li>
+          <li><a href="<?php echo get_template_directory_uri(); ?>/news">ブログ</a></li>
           <li><a href="<?php echo get_template_directory_uri(); ?>/weekdays">平日教室</a></li>
           <li><a href="<?php echo get_template_directory_uri(); ?>/online">オンライン教室</a></li>
           <li><a href="<?php echo get_template_directory_uri(); ?>/visiting">出張講義</a></li>
