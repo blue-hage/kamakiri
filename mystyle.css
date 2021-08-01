@@ -1,0 +1,233 @@
+/* general */
+main{
+  margin-bottom: 100px;
+  color: rgb(112, 112, 112);
+}
+
+.section{
+  margin-bottom: 150px;
+}
+
+/* index.html */
+/* menu */
+.header{
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+header ul li a:hover{
+  color: black;
+}
+
+/* pics */
+.loop_wrap {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.loop_wrap img {
+  width: auto;
+  height: 100%;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes loop2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+.loop_wrap img:first-child {
+  animation: loop 10s -5s linear infinite;
+}
+
+.loop_wrap img:last-child {
+  animation: loop2 10s linear infinite;
+}
+
+/* articles */
+.news_wrapper{
+  position: relative;
+  background-color: rgb(226, 226, 226);
+  padding: 50px 0 200px 0;
+}
+
+.news_wrapper::before{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 200px 100vw ;
+  border-color: transparent transparent #fff transparent;
+}
+
+.latest_articles{
+  display: flex;
+  justify-content: space-around;
+}
+
+.button_back{
+  background-color: white;
+}
+
+/* schedule */
+.schedule_title{
+  text-align: right;
+}
+
+.class{
+  padding: 0 100px 0;
+}
+
+.padding_title{
+  padding-left: 50px;
+}
+
+.padding_half{
+  padding-left: 25px;
+}
+
+/* テスト用 */
+.article{
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+}
+
+.to_prev{
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+/* About us */
+.about_title{
+  margin-bottom: 75px;
+}
+
+.triangle{
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid rgb(226, 226, 226);
+}
+
+.profile{
+  margin-bottom: 100px;
+}
+
+.description_wrapper{
+  background-color: rgb(226, 226, 226);
+  padding: 100px 0 100px 0;
+  transform: skewY(8deg);
+  z-index: -1;
+}
+
+.description{
+  transform: skewY(-8deg);
+}
+
+.profile_background{
+  margin-top: 100px;
+}
+
+.experience{
+  padding: 0 100px 0;
+}
+
+/* contact */
+.contact_button{
+  padding: 10px 50px 10px 50px;
+  background-color: rgb(226, 226, 226);
+}
+
+/* footer */
+.footer_menu{
+  list-style: none;
+}
+
+.footer_menu li{
+  margin-bottom: 5px;
+}
+
+.footer_padding{
+  padding: 0 250px;
+}
+
+footer{
+  width: 90%;
+  background-color: rgb(226, 226, 226);
+  border-radius:400px 400px 0 0;
+  padding-top: 100px;
+}
+
+footer ul{
+  padding: 0;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+footer ul li a:hover{
+  color: black;
+}
+
+/* blog.html page */
+.second-col{
+  margin-top: 50px;
+}
+
+.third-col{
+  margin-top: 100px;
+}
+
+.blog_wrapper{
+  transform: skewY(5deg);
+  background-color: rgb(226, 226, 226);
+  margin-left: 200px;
+}
+
+.blogs{
+  margin-left: -200px;
+  margin-bottom: 50px;
+  transform: skewY(-5deg);
+}
+
+/* weekdays.html */
+.classpage_wrapper{
+  transform: skewY(7deg);
+  background-color: rgb(226, 226, 226);
+  padding: 50px;
+}
+
+.class_description{
+  margin-bottom: 50px;
+}
+
+.classpage{
+  transform: skewY(-7deg);
+}
