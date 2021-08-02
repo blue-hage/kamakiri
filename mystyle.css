@@ -8,8 +8,7 @@ main{
   margin-bottom: 150px;
 }
 
-/* index.html */
-/* menu */
+/* header.php */
 .header{
   list-style: none;
   margin-bottom: 50px;
@@ -24,6 +23,11 @@ header ul li a:hover{
   color: black;
 }
 
+.logo{
+  margin-bottom: 20px;
+}
+
+/* index.php */
 /* pics */
 .loop_wrap {
   display: flex;
@@ -92,12 +96,8 @@ header ul li a:hover{
 }
 
 /* schedule */
-.schedule_title{
-  text-align: right;
-}
-
 .class{
-  padding: 0 100px 0;
+  padding: 0 150px 0;
 }
 
 .padding_title{
@@ -147,6 +147,8 @@ header ul li a:hover{
 
 .description{
   transform: skewY(-8deg);
+  padding: 0 300px 0;
+  text-indent: 2rem;
 }
 
 .profile_background{
@@ -154,7 +156,11 @@ header ul li a:hover{
 }
 
 .experience{
-  padding: 0 100px 0;
+  padding: 0 200px 0;
+}
+
+.profile_item{
+  margin-bottom: 5px;
 }
 
 /* contact */

@@ -12,7 +12,7 @@
     <header>
       <!-- 写真＋タイトル -->
       <div class="text-center pt-5">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="カマキリ博士の画像">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="カマキリ博士の画像" width="100" class="logo">
         <h1 class="mb-5">カマキリ博士の昆虫教室</h1>
       </div>
 
