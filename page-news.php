@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <main>
-      <h1 class="text-center mb-5">ブログ</h1>
+      <h1 class="text-center mb-5">最新記事</h1>
       <div class="blog_wrapper">
         <div class="d-flex justify-content-around blogs">
           <div class="article border border-dark rounded">1</div>

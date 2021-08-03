@@ -27,6 +27,17 @@ header ul li a:hover{
   margin-bottom: 20px;
 }
 
+ul.header > li > ul{
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.header li:hover a + ul{
+  display: block;
+}
+
 /* index.php */
 /* pics */
 .loop_wrap {
@@ -169,7 +180,7 @@ header ul li a:hover{
   background-color: rgb(226, 226, 226);
 }
 
-/* footer */
+/* footer.php */
 .footer_menu{
   list-style: none;
 }
@@ -202,7 +213,7 @@ footer ul li a:hover{
   color: black;
 }
 
-/* blog.html page */
+/* blog.php */
 .second-col{
   margin-top: 50px;
 }
@@ -223,7 +234,7 @@ footer ul li a:hover{
   transform: skewY(-5deg);
 }
 
-/* weekdays.html */
+/* weekdays.php */
 .classpage_wrapper{
   transform: skewY(7deg);
   background-color: rgb(226, 226, 226);

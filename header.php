@@ -20,11 +20,17 @@
       <div class="container text-center">
         <ul class="d-flex justify-content-around align-items-center header">
           <li><a href="<?php echo get_template_directory_uri(); ?>/index">TOP</a></li>
-          <li><a href="<?php echo get_template_directory_uri(); ?>/news">ブログ</a></li>
-          <li><a href="<?php echo get_template_directory_uri(); ?>/weekdays">平日教室</a></li>
+          <li><a href="<?php echo get_template_directory_uri(); ?>/news">最新記事</a></li>
+          <li>
+            <a>教室</a>
+            <ul>
+              <li><a href="<?php echo get_template_directory_uri(); ?>/weekdays">平日教室</a></li>
+              <li><a href="<?php echo get_template_directory_uri(); ?>/weekend">終末教室</a></li>
+            </ul>
+          </li>
           <li><a href="<?php echo get_template_directory_uri(); ?>/online">オンライン教室</a></li>
           <li><a href="<?php echo get_template_directory_uri(); ?>/visiting">出張講義</a></li>
-          <li><a>幼稚園<br>アフタースクール</a></li>
+          <li><a href="<?php echo get_template_directory_uri(); ?>/afterschool">幼稚園<br>アフタースクール</a></li>
           <li><a>お問い合わせ</a></li>
         </ul>
       </div>

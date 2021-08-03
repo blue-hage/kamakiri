@@ -1,11 +1,12 @@
 <?php get_header(); ?>
 
-    <main class="text-center">
+    <main>
       <h1 class="text-center mb-5">平日教室</h1>
       <div class="classpage_wrapper">
-        <div class="mb-5 classpage">
+        <div class="mb-5 classpage text-center">
           <img src="<?php echo get_template_directory_uri(); ?>/images/weekdays.jpg" width="500" class="mb-3" alt="平日教室の風景">
           <p class="class_description">日本初！学校終わりの昆虫・生き物のお稽古教室！♪<br>カマキリ先生と一緒に、昆虫博士・生き物博士を目指してみませんか？<br>昆虫テキストでの学習、昆虫の調べ方、昆虫の触り方、適切な飼育の仕方、野外観察調査等<br>博士に必要なスキルを身につけ、自分の得意な専門分野の力を伸ばしてみませんか？！</p>
+      
           <p>［開催場所］箕面サンプラザ1号館（阪急箕面駅前 徒歩1分）</p>
           <p>［開催曜日］7月14日（4階 会議室❷）・7月28日（4階 会議室❶）・8月11日（地下1階 多目的❷）<br>・8月25日（2階 和室）・9月8日（2階 和室）・9月22日（2階 和室）</p>
           <p>［開催時間］16：00-17：30</p>
@@ -15,9 +16,9 @@
           <p>［お月謝］4500円/月</p>
           <p>［年会費］3000円</p>
           <p>［持ち物］はさみ・のり・色鉛筆・昆虫図鑑</p>
-          <p>［体験教室］無料体験教室　随時受付中！</p>
+          <p>［体験教室］無料体験教室 随時受付中！</p>
         </div>
-  
+
       </div>
     </main>
 
